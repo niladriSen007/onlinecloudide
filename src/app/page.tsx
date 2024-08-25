@@ -1,10 +1,11 @@
+import CodeEditor from "@/components/shared/editor";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="flex w-screen overflow-hidden overscroll-none flex-col h-screen bg-background">
+    <div className="flex w-screen overflow-hidden overscroll-none flex-col min-h-screen bg-background items-center justify-center">
       <div className="w-full max-w-screen-md px-8 flex flex-col items-center">
         <h1 className="text-2xl font-medium text-center mt-32">
           A Collaborative Cloud Code Editor, AI Powered, Auto-Scaling Copilot
@@ -22,6 +23,7 @@ export default function Home() {
         </div>
         <div className="w-full rounded-lg bg-neutral-800 mt-12 aspect-video" />
       </div>
+      
     </div>
   );
 }
