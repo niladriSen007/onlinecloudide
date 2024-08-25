@@ -18,5 +18,9 @@
     "titleBar.inactiveBackground": "#277bf699",
     "titleBar.inactiveForeground": "#e7e7e799"
   },
-  "peacock.color": "#277bf6"
+  "peacock.color": "#277bf6",
+  "cSpell.words": [
+    "jfif",
+    "webp"
+  ]
 }
